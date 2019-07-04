@@ -1,0 +1,31 @@
+<view class="container">
+  <swiper indicator-dots="{{indicatorDots}}"
+  autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+  <block wx:for="{{list}}">
+  <swiper-item>
+    <image class="slide-box" src="{{item}}"/>
+  </swiper-item>
+  </block>
+  </swiper>
+  <view class="head-bottom">
+    <view class="bottom-left"> 
+      <view class="cart" bindtap="toCart">购物车</view>
+    </view>
+    <i></i>
+    <view class="bottom-right">
+      <view class="mybean">我的豆品</view>
+    </view>
+  </view>
+  <view class="new-pro">
+    <view class="new-state"><p>新品首发</p></view>
+    <view class="product-list clearfix">
+      <view class="list-box" bindtap="toDetail" wx:for="{{banner}}">
+        <image class="list-boximage" src="{{item.img}}"/>
+        <view class="list-title">{{item.title}}</view>
+        <view class="list-des">{{item.desc}}</view>
+        <view class="list-price">{{item.price}}</view>
+        <view class="list-other" wx:if="{{item.nep}}">{{item.nep}}         </view>
+      </view>
+    </view>
+  </view>
+</view>

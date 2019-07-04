@@ -1,0 +1,173 @@
+page{
+  background:#f3f2f2;
+  
+}
+.head{
+  background:#fff;
+  font-size:40rpx;
+  height:90rpx;
+  width:100%;
+  padding-left:30rpx;
+  padding-right:30rpx;
+}
+.head-stat{
+  float:left;
+  height:90rpx;
+  line-height:90rpx;
+  width:80rpx;
+  font-weight:600;
+  color: #44883e;
+}
+.head i{
+  float:left;
+  height:40rpx;
+  margin:26rpx 10rpx;
+  width:4rpx;
+  background-color:#44883e;
+}
+.clearfix:after{
+  visibility:hidden;
+  content:"";
+  height:0;
+  dislay:block;
+  clear:both;
+} 
+.head-second{
+  padding:30rpx;
+  background:#fff;
+  width:100%;
+  height:60rpx;
+  margin-bottom:5rpx;
+} 
+
+.quanxuan{
+  height:30rpx;
+  float:left;
+  width:30rpx;
+  background:#fff;
+  border:2rpx solid #ababac;
+}
+.danxuan{
+  float:left;
+  margin-left:20rpx;
+  margin-top:60rpx;
+  display:inline-block;
+  height:30rpx;
+  width:30rpx;
+  background:#fff;
+  border:2rpx solid #ababac;
+}
+.head-seconndstate{
+   margin-left:20rpx;
+   height:30rpx;
+   float:left;
+   display:inline-block;
+   font-size:28rpx;
+   color:#ababac;
+}
+.product{
+  display:inline-block;
+  height:200rpx;
+  width:100%;
+  background:#fff;
+  padding:10rpx 20rpx;
+}
+.goods{
+  float:left;
+  height:200rpx;
+  width:580rpx;
+  background:#fff;
+  display:inline-block;
+}
+.goods-backing{
+  float:left;
+  height:160rpx;
+  width:150rpx;
+  background:#fff;
+  display:inline-block;
+  margin:20rpx 0 20rpx 0;
+}
+.goods-backing img{
+  width:100%;
+  height:100%;
+}
+.goods-state{
+  float:right;
+  position:relative;
+  margin-left:10rpx;
+  height:200rpx;
+  width:400rpx;
+  background:#fff;
+}
+.goods-title{
+  height:60rpx;
+  width:100%;
+  background:#fff;
+  margin-bottom:10rpx;
+  font-size:28rpx;
+  color:#3e3a39;
+}
+.goods-des{
+  background:#fff;
+  height:60rpx;
+  width:100%;
+  font-size:20rpx;
+  color:#ababac;
+}
+.account{
+  position:absolute;
+  bottom:0;
+  background:#fff;
+  width:210rpx;
+  height:60rpx;
+  border:2rpx solid #e4e4e4;
+}
+.addition{
+  float:right;
+  line-height:60rpx;
+  height:60rpx;
+  width:70rpx;
+  text-align: center;
+  background:#f3f2f2;
+  
+}
+.number{
+  text-align: center;
+  height:60rpx;
+  line-height:60rpx;
+  float:left;
+  width:70rpx;
+  background:#fff;
+  color:#3e3a39;
+  font-size:22rpx;
+}
+.reduce{
+  line-height:60rpx;
+  text-align: center;
+  width:70rpx;
+  float:left;
+  color:#505050;
+  background:#f3f2f2;
+}
+.right{
+  float:right;
+  position:relative;
+  height:200rpx;
+  width:110rpx;
+  background:#fff;
+  margin-right:10rpx;
+}
+.delete{
+  float:right;
+  margin-right:10rpx;
+  font-size:28rpx;
+  color:#ababac;
+}
+.price{
+  position:absolute;
+  bottom:0;
+  left:0;
+  background:#fff;
+  color:red;
+  font-size:24rpx;
+}

@@ -1,0 +1,32 @@
+<view class="container">
+  <view class="head clearfix">
+    <view class="head-stat">豆瓣</view>
+    <i></i>
+    <view class="head-stat">豆品</view>
+  </view>
+   <view class="head-second clearfix">
+      <view class="quanxuan"></view>
+      <view class="head-seconndstate">豆瓣豆品</view>
+  </view>
+  <view class="product">
+    <view class="danxuan"></view>
+    <view class="goods">
+      <image class="goods-backing"    src="https://img3.doubanio.com/view/dianpu_product_item/small/public/p2049616.jpg" alt="" >
+      </image>
+      <view class="goods-state">
+        <view class="goods-title">豆瓣藏书票笔记本</view>
+        <view class="goods-des">三色套装</view>
+        <view class="account">
+          <view class="reduce">-</view>
+          <view class="number">2</view>
+          <view class="addition">+</view>
+        </view>
+      </view>
+    </view>
+    <view class="right">
+      <span class="delete">删除</span>
+      <span class="price">￥12.00</span>
+    </view>
+  </view>
+</view>
+
